@@ -55,6 +55,15 @@ function ebayAverage () {
             }
         }
         console.log(priceArray);
+        var sum = 0;
+
+        for (var j = 0; j < priceArray.length; j++) {
+            sum += parseInt( priceArray[j])
+        }
+
+        var average = sum/priceArray.length;
+        console.log(sum);
+        console.log(average);
 
     });
 }
