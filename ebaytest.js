@@ -49,11 +49,12 @@ function ebayAverage () {
             // var sum = 0;
             if (sellingState == "EndedWithSales") {
                 // console.log("true");
-                console.log(sellingPrice);
-                // priceArray.push(sellingPrice);
+                // console.log(sellingPrice);
+                priceArray.push(sellingPrice);
                 // console.log(priceArray);
             }
         }
+        console.log(priceArray);
 
     });
 }
