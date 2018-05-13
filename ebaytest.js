@@ -1,24 +1,5 @@
+
 console.log("hello");
-
-
-// var request = require("request");
-
-// var options = { method: 'GET',
-//   url: 'http://svcs.ebay.com/services/search/FindingService/v1?RESPONSE-DATA-FORMAT=JSON&keywords=tetris,nes&categoryId=139973",
-//   headers: 
-//    { 'Postman-Token': 'cb56648e-0ea8-4994-b598-868d82f69dff',
-//      'Cache-Control': 'no-cache',
-//      'X-EBAY-SOA-SECURITY-APPNAME': 'FuzzyJon-RetroGam-PRD-92cc9f5ed-70036e56',
-//      'X-EBAY-SOA-OPERATION-NAME': 'findCompletedItems',
-//      'X-EBAY-SOA-SERVICE-VERSION': '1.13.0' } };
-
-// request(options, function (error, response, body) {
-//   if (error) throw new Error(error);
-
-//   console.log(body);
-// });
-
-
 
 function ebayAverage () {
     var settings = {
@@ -71,3 +52,24 @@ function ebayAverage () {
 
 ebayAverage();
 
+
+
+
+// node method
+
+// var request = require("request");
+
+// var options = { method: 'GET',
+//   url: 'http://svcs.ebay.com/services/search/FindingService/v1?RESPONSE-DATA-FORMAT=JSON&keywords=tetris,nes&categoryId=139973",
+//   headers: 
+//    { 'Postman-Token': 'cb56648e-0ea8-4994-b598-868d82f69dff',
+//      'Cache-Control': 'no-cache',
+//      'X-EBAY-SOA-SECURITY-APPNAME': 'FuzzyJon-RetroGam-PRD-92cc9f5ed-70036e56',
+//      'X-EBAY-SOA-OPERATION-NAME': 'findCompletedItems',
+//      'X-EBAY-SOA-SERVICE-VERSION': '1.13.0' } };
+
+// request(options, function (error, response, body) {
+//   if (error) throw new Error(error);
+
+//   console.log(body);
+// });
