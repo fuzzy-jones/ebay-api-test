@@ -4,7 +4,7 @@ console.log("hello");
 // var request = require("request");
 
 // var options = { method: 'GET',
-//   url: 'http://svcs.ebay.com/services/search/FindingService/v1?keywords=tetris',
+//   url: 'http://svcs.ebay.com/services/search/FindingService/v1?RESPONSE-DATA-FORMAT=JSON&keywords=tetris,nes&categoryId=139973",
 //   headers: 
 //    { 'Postman-Token': 'cb56648e-0ea8-4994-b598-868d82f69dff',
 //      'Cache-Control': 'no-cache',
@@ -55,6 +55,7 @@ function ebayAverage () {
             }
         }
         console.log(priceArray);
+        
         var sum = 0;
 
         for (var j = 0; j < priceArray.length; j++) {
