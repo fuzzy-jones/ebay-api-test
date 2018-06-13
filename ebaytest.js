@@ -10,7 +10,7 @@ function ebayAverage () {
         "headers": {
         "X-EBAY-SOA-SERVICE-VERSION": "1.13.0",
         "X-EBAY-SOA-OPERATION-NAME": "findCompletedItems",
-        "X-EBAY-SOA-SECURITY-APPNAME": "FuzzyJon-RetroGam-PRD-92cc9f5ed-70036e56",
+        "X-EBAY-SOA-SECURITY-APPNAME": "",
         "Cache-Control": "no-cache",
         "Postman-Token": "2533f0d4-46b4-4ae3-90c5-bfa1c936774a"
         }
@@ -35,7 +35,7 @@ function ebayAverage () {
                 // console.log(priceArray);
             }
         }
-        console.log(priceArray);
+        // console.log(priceArray);
         
         var sum = 0;
 
@@ -44,7 +44,7 @@ function ebayAverage () {
         }
 
         var average = sum/priceArray.length;
-        console.log(sum);
+        // console.log(sum);
         console.log(average);
 
     });
